@@ -66,8 +66,12 @@ El servidor se ejecutará en el puerto **8080**.
     ```bash
     docker-compose up
     ```
-
 Esto pondrá en marcha el servidor en el puerto **8080**.
+
+3. Corre el contenedor 
+    ```bash
+    docker run -p 8080:8080 liga_api:v1.0
+    ```
 ## Imagenes del front funcionando con el api
 
 ![Captura de pantalla](/assets/1.png)
